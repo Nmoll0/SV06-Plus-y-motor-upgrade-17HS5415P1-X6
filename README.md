@@ -1,5 +1,5 @@
 # SV06-Plus-y-motor-upgrade/replacement-17HS5415P1-X6
-An upgrade/replacement guide for the Sovol SV06 Plus 3D Printer Y Axis motor to get up to ~9000mm/s^2 Acceleration at 750 mm/s on the y axis. My Stock Y Motor broke and a replacement would cost more than 25€. So I decided to buy a motor for 10€ with way better specs: The 17HS5415P1-X6. The issue is the port. So here is a way to make it usable.
+An upgrade/replacement guide for the Sovol SV06 Plus 3D Printer Y Axis motor to get up to ~9000mm/s^2 Acceleration at 650 mm/s on the y axis. My Stock Y Motor broke and a replacement would cost more than 25€. So I decided to buy a motor for 10€ with way better specs: The 17HS5415P1-X6. The issue is the port. So here is a way to make it usable.
 
 
 
@@ -74,7 +74,7 @@ I increased the run current to 1A. The motor is rated for 1.5A, but I did not wa
 
 
 ## Results
-After a few tests, the max Acceleration I could reach was 9k mm/s^2 at a speed of 750mm/s (I unplugged the X Motor for this test). However, this was the absolute max for me. Anything after that, the y motor started to skip steps. 
+After a few tests, the max Acceleration I could reach was 9k mm/s^2 at a speed of 650mm/s (I unplugged the X Motor for this test). However, this was the absolute max for me. Anything after that, the y motor started to skip steps. 
 For everyday use, I settled for 6500 mm/s^2 at 750 mm/s. I also ran a speed test at 7000 mm/s^2 and 800 mm/s with 20 iterations for all motors and it completed all 20 iterations without any skipped steps.
 
 
